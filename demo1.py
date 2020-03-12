@@ -7,7 +7,7 @@ from selenium.webdriver.support import expected_conditions as EC
 driver = webdriver.Chrome("C:/Users/Akshay/Downloads/chrome/chromedriver")
 driver.get('https://google.com')
 driver.get('https://demo.actitime.com')
-driver.implicitly_wait(30)
+driver.implicitly_wait(25)
 driver.maximize_window()
 driver.find_element_by_id('username').send_keys('admin')
 print("Entered  Username")
